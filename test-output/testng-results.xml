@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-10T11:04:14 IST" name="Suite" finished-at="2023-03-10T11:04:35 IST" duration-ms="21468">
+    <groups>
+    </groups>
+    <test started-at="2023-03-10T11:04:14 IST" name="ChromeTest" finished-at="2023-03-10T11:04:33 IST" duration-ms="19313">
+      <class name="com.parallel.ParallelTesting">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.parallel.ParallelTesting@48075da3]" started-at="2023-03-10T11:04:14 IST" name="launchBrowser" finished-at="2023-03-10T11:04:27 IST" duration-ms="13473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="automate()[pri:0, instance:com.parallel.ParallelTesting@48075da3]" started-at="2023-03-10T11:04:27 IST" name="automate" finished-at="2023-03-10T11:04:33 IST" duration-ms="5140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parallel.ParallelTesting@48075da3]" started-at="2023-03-10T11:04:33 IST" name="tearDown" finished-at="2023-03-10T11:04:33 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parallel.ParallelTesting -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2023-03-10T11:04:14 IST" name="firefoxTest" finished-at="2023-03-10T11:04:35 IST" duration-ms="21468">
+      <class name="com.parallel.ParallelTesting">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.parallel.ParallelTesting@514646ef]" started-at="2023-03-10T11:04:14 IST" name="launchBrowser" finished-at="2023-03-10T11:04:28 IST" duration-ms="14142" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="automate()[pri:0, instance:com.parallel.ParallelTesting@514646ef]" started-at="2023-03-10T11:04:28 IST" name="automate" finished-at="2023-03-10T11:04:33 IST" duration-ms="5125" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- automate -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.parallel.ParallelTesting@514646ef]" started-at="2023-03-10T11:04:33 IST" name="tearDown" finished-at="2023-03-10T11:04:35 IST" duration-ms="2172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.parallel.ParallelTesting -->
+    </test> <!-- firefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
