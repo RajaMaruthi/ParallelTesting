@@ -75,6 +75,7 @@ public class ParallelTesting
 	{
 		driver.close();
 		System.out.println("Browser closed");
+		System.out.println("closed");
 	}
 	
 	
